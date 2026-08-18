@@ -44,7 +44,7 @@ TARGET		:=	$(notdir $(CURDIR))
 BUILD		:=	build
 SOURCES		:=	source libs/minini-nx/source
 DATA		:=	data
-INCLUDES	:=	include libs/libtesla/include libs/minini-nx/include
+INCLUDES	:=	include ../tesla-lib/include ../minini-nx/include
 
 NO_ICON		:=  1
 
